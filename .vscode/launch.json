@@ -12,7 +12,7 @@
                 "vmArgs": "--module-path lib/linux --add-modules=javafx.controls,javafx.fxml",
             },
             "windows": {
-                "vmArgs": "--module-path lib/win --add-modules=javafx.controls,javafx.fxml",
+                "vmArgs": "--module-path lib/win --add-modules=javafx.controls,javafx.fxml -Djava.library.path=lib/win/bin",
             },
             "mainClass": "app.App"
         }
